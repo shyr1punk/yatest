@@ -10,13 +10,55 @@ root {
     display: block;
 }
 */
-* {
+body {
     font-family: Verdana;
     display: block;
-    border: solid 1px black;
 }
 
 #wrapper{
     width: 1000px;
     margin: 0 auto;
+    border: solid 1px black;
+}
+
+#menu{
+    border: solid 1px black;
+    position: fixed;
+    top: 10px;
+    padding: 10px 0;
+    background: #ffe;
+    width: 1000px;
+}
+
+.titles{
+    margin: 10px 0;
+    padding: 5px;
+}
+
+#title1{
+    border: solid 1px black;
+}
+
+#title2{
+    border: solid 1px black;
+}
+
+#list{
+    border: solid 1px black;
+    width: 300px;
+    position: fixed;
+    top: 150px;
+    padding: 10px 0;
+    background: #ffe;
+}
+
+.lists{
+    border: solid 1px black;
+}
+
+#content{
+    border: solid 1px black;
+    float: right;
+    width: 670px;
+    margin: 150px 0 0 0;
 }
