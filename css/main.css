@@ -1,0 +1,22 @@
+/* 
+    Document   : main
+    Created on : 05.09.2012, 20:00:06
+    Author     : shyr1punk
+    Description:
+        Purpose of the stylesheet follows.
+
+
+root { 
+    display: block;
+}
+*/
+* {
+    font-family: Verdana;
+    display: block;
+    border: solid 1px black;
+}
+
+#wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
